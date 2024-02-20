@@ -13,3 +13,6 @@ const getProof = async () => {
 	return proofs[address];
 }
 ```
+
+# Index2 / Setup2
+- This script allows you to encode a wallet & amount instead of a whitelist. The output is a list of objects that have { address, amount, leaf, proof }
